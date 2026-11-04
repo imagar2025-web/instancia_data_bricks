@@ -14,7 +14,7 @@ param(
     [string]$ResourceGroup = 'rg-dp750',
     [string]$WorkspaceName = 'adb-dp750',
     [ValidateSet('norwayeast', 'switzerlandnorth')]
-    [string]$Location = 'norwayeast',
+    [string]$Location = 'francecentral',
     [ValidateSet('premium', 'standard', 'trial')]
     [string]$Sku = 'premium'
 )
